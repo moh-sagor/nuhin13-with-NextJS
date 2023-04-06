@@ -25,7 +25,7 @@ const Sidebar = ({ open, navItems = defaultNavItems, setOpen }: Props) => {
     <div
       className={classNames({
         "flex flex-col justify-center": true, // layout
-        "bg-indigo-700 text-zinc-50 ": true, // colors
+        "bg-red-500 text-zinc-50 ": true, // colors
         "md:w-full md:sticky md:top-0 md:z-0 top-0 fixed": true, // positioning
         "md:h-[100vh] h-full w-[300px] min-h-screen": true, // for height and width
         "transition-transform .3s ease-in-out md:-translate-x-0": true, //animations
@@ -49,7 +49,7 @@ const Sidebar = ({ open, navItems = defaultNavItems, setOpen }: Props) => {
               <Link key={index} href={item.href}>
                 <li
                   className={classNames({
-                    "text-indigo-100 hover:bg-indigo-900": true, //colors
+                    "text-indigo-100 hover:bg-red-400": true, //colors
                     "flex gap-4 items-center justify-center": true, //layout
                     "transition-colors duration-300": true, //animation
                     "rounded-md p-2 mx-2": true, //self style
