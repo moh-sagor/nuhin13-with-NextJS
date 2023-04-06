@@ -7,7 +7,7 @@ export default function projects() {
     <div>
       <Head>
         <link rel="shortcut icon" href="/favicon.png" />
-        <title>Projects | Nazmus Sadat Nuhin | Andriod Developer</title>
+        <title>Nazmus Sadat Nuhin | Andriod Developer</title>
       </Head>
       <div className="mx-6">
         <div className="mt-12">

@@ -9,6 +9,13 @@ import {
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
+import dynamic from "next/dynamic";
+
+const Projects = dynamic(() => import("./projects"));
+const WorkHistory = dynamic(() => import("./workhistory"));
+const Education = dynamic(() => import("./education"));
+const Skills = dynamic(() => import("./skills"));
+
 const HomePage: NextPage = () => {
   return (
     <div>
@@ -90,6 +97,14 @@ const HomePage: NextPage = () => {
           </div>
         </div>
       </div>
+      <hr className="h-px my-8 border-4 dark:bg-gray-500" />
+      <Projects />
+      <hr className="h-px my-8 border-4 dark:bg-gray-500" />
+      <WorkHistory />
+      <hr className="h-px my-8 border-4 dark:bg-gray-500" />
+      <Education />
+      <hr className="h-px my-8 border-4 dark:bg-gray-500" />
+      <Skills />
     </div>
   );
 };

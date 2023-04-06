@@ -1,4 +1,3 @@
-import React from "react";
 import { NavItem } from "./Sidebar";
 
 export const defaultNavItems: NavItem[] = [

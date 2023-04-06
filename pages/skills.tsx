@@ -6,7 +6,7 @@ export default function skills() {
     <div>
       <Head>
         <link rel="shortcut icon" href="/favicon.png" />
-        <title>Skills | Nazmus Sadat Nuhin | Andriod Developer</title>
+        <title>Nazmus Sadat Nuhin | Andriod Developer</title>
       </Head>
       <div className="mx-6">
         <div className="mt-12">
