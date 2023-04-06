@@ -9,7 +9,7 @@ export default function projects() {
         <link rel="shortcut icon" href="/favicon.png" />
         <title>Nazmus Sadat Nuhin | Andriod Developer</title>
       </Head>
-      <div className="mx-6">
+      <div className="mx-6 grid content-center min-h-screen">
         <div className="mt-12">
           <h1 className="text-5xl  text-gray-700 font-bold">
             HIGHLIGHTED PROJECTS
