@@ -9,14 +9,18 @@ const Navbar = (props: Props) => {
     <nav
       className={classNames({
         "md:collapse": true,
-        "bg-zinc-100": true, // colors
+        "bg-red-300": true, // colors
         "flex items-center": true, // layout
         "w-full fixed h-16": true, //positioning & styling
       })}
     >
-      <div className="flex-grow"></div>
+      <div className="flex-grow ">
+        <h1 className="flex text-2xl font-medium text-red-800 justify-center">
+          NAZMUS SADAT NUHIN
+        </h1>
+      </div>
       <button className="md:hidden" onClick={props.onMenuButtonClick}>
-        <Bars3Icon className="h-6 w-6" />
+        <Bars3Icon className="h-8 w-8 m-5" />
       </button>
     </nav>
   );
